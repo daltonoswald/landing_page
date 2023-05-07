@@ -7,7 +7,7 @@ body {
 }
 
 .margin {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -48,6 +48,7 @@ ul {
     flex-wrap: nowrap;
     width: 100%;
     justify-content: space-evenly;
+    /* gap: 16px; */
 }
 
 .awesome-container {
@@ -75,6 +76,8 @@ ul {
 
 .awesome-right {
     width: 50%;
+    display: flex;
+    justify-content: right;
 }
 
 .awesome-text {
@@ -93,7 +96,7 @@ button {
 }
 
 .image {
- width: 100%;
+ width: 70%;
  height: 200px;
  background-color: gray;
  display: flex;
@@ -134,4 +137,77 @@ img {
     height: 50px;
     border-radius: 4px;
     border-color: #3882F6;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    width: 60%;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 70%;
+    margin: 64px auto;
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cta-left {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.cta-right {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-text {
+    font-size: 16px;
+}
+
+.cta.sign-up {
+    border: solid #F9FAF8;
+}
+
+.footer {
+    color:#F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
 }
