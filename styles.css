@@ -21,6 +21,7 @@ body {
     justify-content: space-between;
     padding: 8px;
     margin-bottom: 92px;
+    margin-top: 8px;
 }
 
 .left, .right {
@@ -70,13 +71,13 @@ ul {
 .awesome-left {
     display:flex;
     flex-direction: column;
-    width: 50%;
+    flex: 1;
 
 }
 
 .awesome-right {
-    width: 50%;
     display: flex;
+    flex: 1;
     justify-content: right;
 }
 
@@ -133,8 +134,8 @@ button {
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     border-radius: 4px;
     border-color: #3882F6;
 }
@@ -152,7 +153,7 @@ img {
 .quote {
     font-size: 36px;
     color: #1F2937;
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
     width: 60%;
 }
@@ -200,8 +201,9 @@ img {
     font-size: 16px;
 }
 
-.cta.sign-up {
-    border: solid #F9FAF8;
+.sign-up-bottom {
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .footer {
